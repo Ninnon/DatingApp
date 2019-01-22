@@ -19,7 +19,7 @@ namespace DatingApp.API.Controllers
             _repo = repo;
         }
 
-        [HttpPost("register"]
+        [HttpPost("register")]
         public async Task<IActionResult> Register(string username, string password)
         {
             // validate request
