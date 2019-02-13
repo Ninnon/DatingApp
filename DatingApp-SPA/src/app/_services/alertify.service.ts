@@ -8,11 +8,15 @@ export class AlertifyService {
 
 constructor() { }
 
+
 confirm(message: string, okCallback: () => any) {
 alertify.confirm(message, function(e) {
   if (e) {
     okCallback();
   } else {}
+})
+.setting({
+  'title': 'Dating App',
 });
 }
 
