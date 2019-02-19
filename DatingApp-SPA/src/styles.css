@@ -4,6 +4,7 @@
 @import '../node_modules/font-awesome/css/font-awesome.min.css';
 @import '../node_modules/alertifyjs/build/css/alertify.min.css';
 @import '../node_modules/alertifyjs/build/css/themes/bootstrap.min.css';
+@import '../node_modules/ngx-bootstrap/datepicker/bs-datepicker.css';
 
 
 .tab-panel {
@@ -11,6 +12,10 @@
     padding: 10px;
     border-radius: 4px;
   }
+
+  .theme-red .bs-datepicker-head {
+    background-color: #E95420 !important;
+}
   
   .nav-tabs > li.open, .member-tabset > .nav-tabs > li:hover {
     border-bottom: 4px solid #fbcdcf;
